@@ -1,9 +1,10 @@
 import { Component, input } from '@angular/core';
 import { HousingLocationInfo } from '../housingLocation';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-housing-location',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './housing-location.html',
   styleUrl: './housing-location.css',
 })
